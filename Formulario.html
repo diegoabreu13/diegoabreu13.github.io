@@ -14,9 +14,9 @@
         }
 
         #Formulario {
-            width: 25%;
+            width: 30%;
             height: 400px;
-           
+           text-align: center;
 color: white;
             margin: auto;
         }
@@ -28,15 +28,16 @@ color: white;
 
         textarea {
             height: 100px;
-            position: absolute;
+            
         }
 
         button{
-            display: flex;
-            justify-content: flex-end;
-            align-items:flex-end;
-            margin-top: 110px;
-            margin-left: 30px;
+           text-align: center;
+           border-radius: 15%;
+           background-color: white;
+        }
+        label{
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -46,16 +47,16 @@ color: white;
         <h2>
             ¿Que más te interesaría saber?
         </h2>
-        <label for="Nombre">Nombre</label>
+        <label for="Nombre">Nombre</label><br><br>
         <input required type="text" placeholder="Nombre"><br><br>
-        <label for="Apellidos">Apellidos</label>
+        <label for="Apellidos">Apellidos</label><br><br>
         <input required type="text" placeholder="Apellidos"><br><br>
-        <label for="Gmail">Gmail</label>
+        <label for="Gmail">Gmail</label><br><br>
         <input required type="email" placeholder="Gmail"><br><br>
-        <label for="Teléfono">Teléfono</label>
+        <label for="Teléfono">Teléfono</label><br><br>
         <input required type="number" placeholder="Teléfono"><br><br>
-       <label for="Textarea">¿Que más Deseas?</label>
-                <textarea required placeholder="¿Que más Deseas?"></textarea>
+       <label for="Textarea">¿Que más Deseas?</label><br><br>
+                <textarea required placeholder="¿Que más Deseas?"></textarea><br><br>
 <button type="submit">Enviar</button>
 
     </form>
